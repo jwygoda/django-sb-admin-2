@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:11.2
+  web:
+    image:
+      sb_admin_2:${REQUIREMENTS}
+    build:
+      context: .
+      args:
+        REQUIREMENTS: ${REQUIREMENTS}
+    environment:
+      - SECRET_KEY
+      - DEBUG 
+      - ALLOWED_HOSTS
+      - DATABASE_URL
+      - LANGUAGE_CODE
+      - TIME_ZONE
+      - USE_I18N
+      - USE_L10N
+      - USE_TZ
+      - STATIC_URL
+      - SENDGRID_API_KEY
+      - REQUIREMENTS
+    command:
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"

@@ -1,0 +1,6 @@
+-r base.in
+-r linters.in
+
+psycopg2-binary
+pip-tools
+pre-commit

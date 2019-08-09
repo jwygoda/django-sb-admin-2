@@ -1,0 +1,4 @@
+-r production.in
+
+django-heroku
+gunicorn

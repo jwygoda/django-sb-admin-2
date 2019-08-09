@@ -1,0 +1,6 @@
+django
+django-allauth
+django-anymail[sendgrid]
+django-sb-admin-2-auth
+environs[django]
+whitenoise
