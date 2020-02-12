@@ -32,9 +32,9 @@ django-anymail[sendgrid]==6.1.0 \
 django-sb-admin-2-auth==0.1.0 \
     --hash=sha256:681f815f2629cc0dfb0a28d106f35a0b0836aaabe8d3e1e04cbdd571bef46c38 \
     --hash=sha256:7449061340ab80d7e5a01e6a533de082019c324723d0b9b3fa3cdbf253eb039c
-django==2.2.4 \
-    --hash=sha256:16a5d54411599780ac9dfe3b9b38f90f785c51259a584e0b24b6f14a7f69aae8 \
-    --hash=sha256:9a2f98211ab474c710fcdad29c82f30fc14ce9917c7a70c3682162a624de4035
+django==2.2.10 \
+    --hash=sha256:1226168be1b1c7efd0e66ee79b0e0b58b2caa7ed87717909cd8a57bb13a7079a \
+    --hash=sha256:9a4635813e2d498a3c01b10c701fe4a515d76dd290aaa792ccb65ca4ccb6b038
 environs[django]==5.2.1 \
     --hash=sha256:ab4362c638aa67177a832aedf1609a95b46179ea9f5b1af8c90cbfe70ca7e6cf \
     --hash=sha256:d92784bdeb6fe038688b19128b5d9a4d9eda4d33f1a38c21be8cad54c769a763
