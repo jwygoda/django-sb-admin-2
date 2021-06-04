@@ -6,62 +6,70 @@
 #
 certifi==2019.6.16 \
     --hash=sha256:046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939 \
-    --hash=sha256:945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695 \
+    --hash=sha256:945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695
     # via requests
 chardet==3.0.4 \
     --hash=sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae \
-    --hash=sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691 \
+    --hash=sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691
     # via requests
 defusedxml==0.6.0 \
     --hash=sha256:6687150770438374ab581bb7a1b327a847dd9c5749e396102de3fad4e8a3ef93 \
-    --hash=sha256:f684034d135af4c6cbb949b8a4d2ed61634515257a67299e5f940fbaa34377f5 \
+    --hash=sha256:f684034d135af4c6cbb949b8a4d2ed61634515257a67299e5f940fbaa34377f5
     # via python3-openid
 dj-database-url==0.5.0 \
     --hash=sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163 \
-    --hash=sha256:851785365761ebe4994a921b433062309eb882fedd318e1b0fcecc607ed02da9 \
-    # via django-heroku, environs
+    --hash=sha256:851785365761ebe4994a921b433062309eb882fedd318e1b0fcecc607ed02da9
+    # via
+    #   django-heroku
+    #   environs
 dj-email-url==0.2.0 \
     --hash=sha256:0362e390c17cc377f03bcbf6daf3f671797c929c1bf78a9f439d78f215ebe3fd \
-    --hash=sha256:136ac43c7f29022130fc4769b4ca8b01cd1c39fedf1659c641c143808182a084 \
+    --hash=sha256:136ac43c7f29022130fc4769b4ca8b01cd1c39fedf1659c641c143808182a084
     # via environs
 django-allauth==0.39.1 \
-    --hash=sha256:4444434c2f43188e16e0a7732c3638e12787ca7e5032f69b6d30b2912f53809e \
-    # via -r base.in, django-sb-admin-2-auth
+    --hash=sha256:4444434c2f43188e16e0a7732c3638e12787ca7e5032f69b6d30b2912f53809e
+    # via
+    #   -r base.in
+    #   django-sb-admin-2-auth
 django-anymail[sendgrid]==6.1.0 \
     --hash=sha256:72549db8823c144a334bf88c8e749becb1fc82911658129549f46bfb84de311c \
-    --hash=sha256:947c9c5de009036771ff9c4295da1836c950fdee4d7c27441181ce1021c370a8 \
+    --hash=sha256:947c9c5de009036771ff9c4295da1836c950fdee4d7c27441181ce1021c370a8
     # via -r base.in
 django-heroku==0.3.1 \
     --hash=sha256:2bc690aab89eedbe01311752320a9a12e7548e3b0ed102681acc5736a41a4762 \
-    --hash=sha256:6af4bc3ae4a9b55eaad6dbe5164918982d2762661aebc9f83d9fa49f6009514e \
+    --hash=sha256:6af4bc3ae4a9b55eaad6dbe5164918982d2762661aebc9f83d9fa49f6009514e
     # via -r heroku.in
 django-sb-admin-2-auth==0.1.0 \
     --hash=sha256:681f815f2629cc0dfb0a28d106f35a0b0836aaabe8d3e1e04cbdd571bef46c38 \
-    --hash=sha256:7449061340ab80d7e5a01e6a533de082019c324723d0b9b3fa3cdbf253eb039c \
+    --hash=sha256:7449061340ab80d7e5a01e6a533de082019c324723d0b9b3fa3cdbf253eb039c
     # via -r base.in
-django==2.2.13 \
-    --hash=sha256:84f370f6acedbe1f3c41e1a02de44ac206efda3355e427139ecb785b5f596d80 \
-    --hash=sha256:e8fe3c2b2212dce6126becab7a693157f1a441a07b62ec994c046c76af5bb66d \
-    # via -r base.in, django-allauth, django-anymail, django-heroku
+django==2.2.21 \
+    --hash=sha256:7460cfe3781d36d1625230267dad255deb33e9229e41f21e32b33b9d536d20cd \
+    --hash=sha256:7d8b61b6e7031a3c1a4aef29e2701849af0837f4f2062bc203077a0b46d51c2c
+    # via
+    #   -r base.in
+    #   django-allauth
+    #   django-anymail
+    #   django-heroku
 environs[django]==5.2.1 \
     --hash=sha256:ab4362c638aa67177a832aedf1609a95b46179ea9f5b1af8c90cbfe70ca7e6cf \
-    --hash=sha256:d92784bdeb6fe038688b19128b5d9a4d9eda4d33f1a38c21be8cad54c769a763 \
+    --hash=sha256:d92784bdeb6fe038688b19128b5d9a4d9eda4d33f1a38c21be8cad54c769a763
     # via -r base.in
 gunicorn==19.9.0 \
     --hash=sha256:aa8e0b40b4157b36a5df5e599f45c9c76d6af43845ba3b3b0efe2c70473c2471 \
-    --hash=sha256:fa2662097c66f920f53f70621c6c58ca4a3c4d3434205e608e121b5b3b71f4f3 \
+    --hash=sha256:fa2662097c66f920f53f70621c6c58ca4a3c4d3434205e608e121b5b3b71f4f3
     # via -r heroku.in
 idna==2.8 \
     --hash=sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407 \
-    --hash=sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c \
+    --hash=sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c
     # via requests
 marshmallow==2.19.5 \
     --hash=sha256:9cedfc5b6f568d57e8a2cf3d293fbd81b05e5ef557854008d03e25660a39ccfd \
-    --hash=sha256:a4d99922116a76e5abd8f997ec0519086e24814b7e1e1344bebe2a312ba50235 \
+    --hash=sha256:a4d99922116a76e5abd8f997ec0519086e24814b7e1e1344bebe2a312ba50235
     # via environs
 oauthlib==3.1.0 \
     --hash=sha256:bee41cc35fcca6e988463cacc3bcb8a96224f470ca547e697b604cc697b2f889 \
-    --hash=sha256:df884cd6cbe20e32633f1db1072e9356f53638e4361bef4e8b03c9127c9328ea \
+    --hash=sha256:df884cd6cbe20e32633f1db1072e9356f53638e4361bef4e8b03c9127c9328ea
     # via requests-oauthlib
 psycopg2==2.8.3 \
     --hash=sha256:128d0fa910ada0157bba1cb74a9c5f92bb8a1dca77cf91a31eb274d1f889e001 \
@@ -74,41 +82,48 @@ psycopg2==2.8.3 \
     --hash=sha256:b1b8e41da09a0c3ef0b3d4bb72da0dde2abebe583c1e8462973233fd5ad0235f \
     --hash=sha256:cb407fccc12fc29dc331f2b934913405fa49b9b75af4f3a72d0f50f57ad2ca23 \
     --hash=sha256:d3a27550a8185e53b244ad7e79e307594b92fede8617d80200a8cce1fba2c60f \
-    --hash=sha256:f0e6b697a975d9d3ccd04135316c947dd82d841067c7800ccf622a8717e98df1 \
-    # via -r production.in, django-heroku
+    --hash=sha256:f0e6b697a975d9d3ccd04135316c947dd82d841067c7800ccf622a8717e98df1
+    # via
+    #   -r production.in
+    #   django-heroku
 python-dotenv==0.10.3 \
     --hash=sha256:debd928b49dbc2bf68040566f55cdb3252458036464806f4094487244e2a4093 \
-    --hash=sha256:f157d71d5fec9d4bd5f51c82746b6344dffa680ee85217c123f4a0c8117c4544 \
+    --hash=sha256:f157d71d5fec9d4bd5f51c82746b6344dffa680ee85217c123f4a0c8117c4544
     # via environs
 python3-openid==3.1.0 \
     --hash=sha256:0086da6b6ef3161cfe50fb1ee5cceaf2cda1700019fda03c2c5c440ca6abe4fa \
-    --hash=sha256:628d365d687e12da12d02c6691170f4451db28d6d68d050007e4a40065868502 \
+    --hash=sha256:628d365d687e12da12d02c6691170f4451db28d6d68d050007e4a40065868502
     # via django-allauth
 pytz==2019.2 \
     --hash=sha256:26c0b32e437e54a18161324a2fca3c4b9846b74a8dccddd843113109e1116b32 \
-    --hash=sha256:c894d57500a4cd2d5c71114aaab77dbab5eabd9022308ce5ac9bb93a60a6f0c7 \
+    --hash=sha256:c894d57500a4cd2d5c71114aaab77dbab5eabd9022308ce5ac9bb93a60a6f0c7
     # via django
 requests-oauthlib==1.2.0 \
     --hash=sha256:bd6533330e8748e94bf0b214775fed487d309b8b8fe823dc45641ebcd9a32f57 \
-    --hash=sha256:d3ed0c8f2e3bbc6b344fa63d6f933745ab394469da38db16bdddb461c7e25140 \
+    --hash=sha256:d3ed0c8f2e3bbc6b344fa63d6f933745ab394469da38db16bdddb461c7e25140
     # via django-allauth
 requests==2.22.0 \
     --hash=sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4 \
-    --hash=sha256:9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31 \
-    # via django-allauth, django-anymail, requests-oauthlib
+    --hash=sha256:9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31
+    # via
+    #   django-allauth
+    #   django-anymail
+    #   requests-oauthlib
 six==1.12.0 \
     --hash=sha256:3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c \
-    --hash=sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73 \
+    --hash=sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73
     # via django-anymail
 sqlparse==0.3.0 \
     --hash=sha256:40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177 \
-    --hash=sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873 \
+    --hash=sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873
     # via django
 urllib3==1.25.3 \
     --hash=sha256:b246607a25ac80bedac05c6f282e3cdaf3afb65420fd024ac94435cabe6e18d1 \
-    --hash=sha256:dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232 \
+    --hash=sha256:dbe59173209418ae49d485b87d1681aefa36252ee85884c31346debd19463232
     # via requests
 whitenoise==4.1.3 \
     --hash=sha256:59d880d25d0e90bcc6554fe0504a11195bd2e59b3d690b6fb42a8040d4e67ef5 \
-    --hash=sha256:c9b7c47fdc1dba4d37bf2787a01a844dc7a521e174fcd22a2d429e0be65e1782 \
-    # via -r base.in, django-heroku
+    --hash=sha256:c9b7c47fdc1dba4d37bf2787a01a844dc7a521e174fcd22a2d429e0be65e1782
+    # via
+    #   -r base.in
+    #   django-heroku
